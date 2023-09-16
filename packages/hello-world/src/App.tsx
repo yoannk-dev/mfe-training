@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
-const App = (): React.ReactElement  => {
+const HelloWorld = (): React.ReactElement  => {
   const [count, setCount] = useState(0)
 
   return (
@@ -25,4 +25,4 @@ const App = (): React.ReactElement  => {
   )
 }
 
-export default App
+export default HelloWorld
