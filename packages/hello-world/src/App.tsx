@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './assets/vite.svg'
 
 const HelloWorld = (): React.ReactElement  => {
   const [count, setCount] = useState(0)
@@ -15,7 +15,7 @@ const HelloWorld = (): React.ReactElement  => {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Hello World!</h1>
+      <h2>Hello World!</h2>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
