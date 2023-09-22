@@ -1,11 +1,11 @@
-# `hello-world`
+# `homepage`
 
 > TODO: description
 
 ## Usage
 
 ```
-const helloWorld = require('hello-world');
+const homepage = require('homepage');
 
 // TODO: DEMONSTRATE API
 ```

@@ -1,11 +1,11 @@
 {
-  "name": "hello-world",
+  "name": "homepage",
   "version": "0.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Yoann Kermet <y.kermet@gmail.com>",
   "license": "ISC",
-  "main": "lib/hello-world.js",
+  "main": "src/main.tsx",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -22,7 +22,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "node ./__tests__/hello-world.test.js"
+    "test": "node ./__tests__/homepage.test.js"
   },
   "bugs": {
     "url": "https://github.com/yoannk-dev/mfe-training/issues"
