@@ -30,7 +30,7 @@
   "homepage": "https://github.com/yoannk-dev/mfe-training#readme",
   "dependencies": {
     "header": "file:../header",
-    "hello-world": "file:../hello-world",
+    "homepage": "file:../homepage",
     "ui": "file:../ui"
   }
 }

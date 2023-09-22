@@ -1,12 +1,12 @@
 import React from 'react'
 import HeaderApp from './components/HeaderApp'
-import HelloWorld from './components/HelloWorldApp'
+import HomepageApp from './components/HomepageApp'
 
 const Shell = (): React.ReactElement  => {
   return (
     <div>
       <HeaderApp />
-      <HelloWorld />
+      <HomepageApp />
     </div>
   )
 }
