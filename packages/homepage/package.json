@@ -30,7 +30,8 @@
   "homepage": "https://github.com/yoannk-dev/mfe-training#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ui": "file:../ui"
   },
   "devDependencies": {
     "@types/node": "^20.6.2",
