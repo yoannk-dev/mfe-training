@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/yoannk-dev/mfe-training#readme",
   "dependencies": {
-    "header": "../header",
-    "hello-world": "../hello-world"
+    "header": "file:../header",
+    "hello-world": "file:../hello-world",
+    "ui": "file:../ui"
   }
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { mount } from 'hello-world/src/main'
+import { mount } from 'header/src/main'
 
 export default (): React.ReactElement => {
   const firstLoad: { current: boolean } = useRef(false)

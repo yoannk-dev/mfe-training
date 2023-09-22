@@ -1,9 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.js'
+import App from './App.tsx'
+import 'ui/index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const mount = (el: any) => {
+  ReactDOM.createRoot(el!).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  )
+}
+
+// If we are in development and in isolation,
+// call mount immediately
+if (process.env.NODE_ENV === 'development') {
+  const devRoot = document.querySelector('#headerRoot')
+
+  if (devRoot) {
+    mount(devRoot)
+  }
+}
+
+export { mount }

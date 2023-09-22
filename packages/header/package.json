@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "Yoann Kermet <y.kermet@gmail.com>",
   "license": "ISC",
-  "main": "lib/header.js",
+  "main": "src/main.tsx",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -30,7 +30,8 @@
   "homepage": "https://github.com/yoannk-dev/mfe-training#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "ui": "file:../ui"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",

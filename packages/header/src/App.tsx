@@ -1,5 +1,6 @@
 import React from 'react'
+import Header from './components/Header'
 
-const Header = (): React.ReactElement  => <header>Header</header>
+const App = (): React.ReactElement  => <Header />
 
-export default Header
+export default App
